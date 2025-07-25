@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@keyframes fadeInSlow {
+  0% {
+    opacity: 0;
+    transform: translateY(2rem);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeInSlow {
+  animation: fadeInSlow 0.8s ease-out forwards;
+}
+
+.wiki-content h1,
+.wiki-content h2,
+.wiki-content h3,
+.wiki-content h4 {
+  color: white;
+  margin-top: 1rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+  border-bottom: 1px solid #444;
+  padding-bottom: 0.25rem;
+}
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--color-stone-100);
+
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--color-stone-700);
+  border-radius: 8px;
+  border: 2px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: var(--color-stone-500);
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--color-stone-700) var(--color-stone-800);
+}
+
+body{
+  background-color: black;
+}
+
+
+
+.wiki-content .mw-editsection,
+.wiki-content sup.reference,
+.wiki-content .hatnote,
+.wiki-content .reflist,
+.wiki-content table.infobox,
+.wiki-content .navbox,
+.wiki-content .metadata,
+.mw-references-wrap .mw-references-columns,
+.references,
+.thumb,
+.error,
+.mw-ext-cite-error {
+  display: none !important;
+}
+
+#particles {
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+}
