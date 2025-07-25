@@ -1,12 +1,63 @@
-# React + Vite
+# 🧠 WikiFinder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A clean and minimal Wikipedia search app that displays summarized and structured content. Built with **React**, powered by **Wikipedia API**, and styled using **Tailwind CSS**.
 
-Currently, two official plugins are available:
+🔗 **Live Preview**: [https://wikifinderapp.vercel.app](https://wikifinderapp.vercel.app)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🖼️ Screenshot
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Here’s how the WikiFinder app looks in action:
+
+![WikiFinder Preview](./src/screenshots/preview.png)
+
+> *Preview of the clean UI showing the WikiFinder App Landing Page.*
+
+---
+
+## ✨ Features
+
+- 🔍 Search Wikipedia pages in real-time
+- 📑 Structured display with headings and sections
+- 🎯 Section navigation via clickable sidebar
+- 🌈 Beautiful background with tsParticles 
+- 📱 Responsive and mobile-friendly design
+
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend:** React + Vite  
+- **Styling:** Tailwind CSS   
+- **Background:** tsparticles-react  
+- **API:** Wikipedia REST API  
+- **Deployment:** Vercel  
+
+---
+
+## 🧠 Learnings
+
+Through building WikiFinder, I explored and strengthened the following:
+
+- 📚 **React fundamentals**: Components, props, state, and hooks  
+- ⚡ **API integration**: Calling and rendering data from the Wikipedia REST API  
+- 🎨 **UI design with Tailwind CSS**: Utility-first styling and responsive layout  
+- 🧩 **Conditional rendering**: Managing dynamic UI based on user interaction   
+- 🎆 **tsparticles**: Integrating interactive background effects  
+- 🧠 **Debugging skills**: Handling edge cases, layout issues, and state bugs  
+- 🚀 **Deploying**: Hosting the app live using [Vercel](https://vercel.com)
+
+This project helped me go from learning individual concepts to applying them in a real-world app.
+
+---
+
+## 🙌 Author
+
+Made with ❤️ by [**Arjun O**](https://github.com/ArjunO-008)
+
+If you found this project helpful or inspiring, feel free to ⭐ the repository and share it!
+
+You can also connect with me on:
+- GitHub: [github.com/ArjunO-008](https://github.com/ArjunO-008)
+
